@@ -1,0 +1,30 @@
+#general{
+}
+
+.feld{
+    margin: 0px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-image: url('sprites/feld.jpg');
+    background-size: 80px;
+    color: green;
+}
+.stones{
+    margin: 0px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-image: url('sprites/wall.jpg');
+    background-size: 80px;
+    color: #462312;
+
+}
+.robot{
+    background-image: url("sprites/robot_sprite_walk_by_soneraktas-da1azyk.gif");
+    height: 80px;
+    width: 80px;
+    background-size: 80px;
+    z-index: 5;
+    position: absolute;
+}
