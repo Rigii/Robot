@@ -1,6 +1,11 @@
-#general{
-}
 
+#general{
+margin:80px;
+
+}
+.lines{
+    font-size: 0px;
+}
 .feld{
     margin: 0px;
     display: inline-block;
@@ -9,6 +14,7 @@
     background-image: url('sprites/feld.jpg');
     background-size: 80px;
     color: green;
+    position:relative;
 }
 .stones{
     margin: 0px;
@@ -18,6 +24,7 @@
     background-image: url('sprites/wall.jpg');
     background-size: 80px;
     color: #462312;
+    position:relative;
 
 }
 .robot{
